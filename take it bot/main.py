@@ -25,9 +25,5 @@ def send_welcome(message):
     """
     bot.send_message(message.chat.id,msg,reply_markup=markup)
 
-# @bot.callback_query_handler(text=['1'])
-# def swnd_info(message):
-#     bot.send_message(message.chat.id,'salom')
-
 
 bot.infinity_polling()
